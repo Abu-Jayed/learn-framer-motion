@@ -1,10 +1,15 @@
-import React from 'react';
+import { motion } from "framer-motion";
 
 const Lesson1 = () => {
+  const initial = { x: 0 };
+  const animate = { x: 100, rotate: 222 };
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vitae sunt culpa dolores consequatur, nostrum impedit repellendus. Maiores aliquid ullam id placeat, ea, in porro corrupti inventore unde ipsam autem.
-    </div>
+    <motion.div
+      initial={initial}
+      animate={animate}
+      transition={{ duration: 4 }}
+      className="size-64 bg-emerald-500 rounded-xl"
+    ></motion.div>
   );
 };
 
