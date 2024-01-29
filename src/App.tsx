@@ -1,13 +1,11 @@
-import { useState } from "react";
-import MainLayout from "./components/layout/MainLayout";
+import "./App.css";
+import Lesson1 from "./framer-motion/Lesson1";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <MainLayout></MainLayout>
-    </>
+    <div className="flex items-center justify-center">
+      <Lesson1></Lesson1>
+    </div>
   );
 }
 
