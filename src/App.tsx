@@ -1,10 +1,11 @@
 import "./App.css";
-import Lesson7 from "./framer-motion/Lesson7";
+import Lesson8 from "./framer-motion/Lesson8";
 
 function App() {
   return (
-    <div className="flex items-center justify-center w-full mx-auto h-[100vh]">
-      <Lesson7></Lesson7>
+    <div className="flex flex-col items-center justify-center w-full mx-auto ">
+      <div className="h-[200vh] w-full bg-orange-400"></div>
+      <Lesson8></Lesson8>
     </div>
   );
 }
